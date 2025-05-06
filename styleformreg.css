@@ -396,6 +396,7 @@ body{
     position: absolute;
     width: 249px;
     height: 33px;
+    
   }
   .form_log input[type="pass"]{
     left: 15px;
@@ -410,6 +411,7 @@ body{
       position: absolute;
       width: 249px;
       height: 33px;
+      
   }
   .form_log input::placeholder{
     position: relative;
@@ -421,7 +423,7 @@ body{
   height: 33px;
   left: 15px;
   top: 284px;
-  
+
   font-family: 'Megrim';
   font-style: normal;
   font-weight: 500;
