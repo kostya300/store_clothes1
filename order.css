@@ -1,0 +1,194 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Megrim", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+hamburger-menu {
+  position: absolute;
+  left: 20px;
+  width: 30px;
+  height: 30px;
+}
+#menu__toggle {
+  opacity: 0;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+  z-index: 1;
+}
+
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 12px;
+  left: 59px;
+
+  width: 19px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+
+  width: 100%;
+  height: 3px;
+  z-index: 1;
+  background-color: #000000;
+
+  transition-duration: 0.25s;
+}
+.menu__btn > span::before {
+  content: "";
+  top: -6px;
+}
+.menu__btn > span::after {
+  content: "";
+  top: 6px;
+}
+
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+
+  width: 300px;
+  height: 100%;
+
+  margin: 0;
+  padding: 80px 0;
+
+  list-style: none;
+
+  background-color: #eceff1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+
+  transition-duration: 0.25s;
+}
+
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+
+  color: #333;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition-duration: 0.25s;
+}
+.menu__item:hover {
+  background-color: #cfd8dc;
+}
+.nav_nenu {
+  display: block;
+  /* background: #d2c8c8; */
+  position: absolute;
+  width: 50px;
+  height: 213px;
+  left: 994px;
+  top: -18px;
+}
+.nav_nenu ul {
+  position: absolute;
+  list-style-type: none;
+  right: 12px;
+  top: 49px;
+}
+.cart1 {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  right: 17px;
+  bottom: 19px;
+}
+.cart2 {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  right: 14px;
+  bottom: -6px;
+}
+.cart3 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  right: 14px;
+  bottom: -30px;
+}
+
+.cart4 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  right: 16px;
+  top: 55px;
+}
+.cart1:hover {
+  background-color: rgb(219, 233, 241);
+  border: 0.2px solid black;
+  transform: scale(1.2);
+  transition: 0.2s ease-in;
+  border-radius: 50%;
+  transform: scaleX(-5px);
+}
+.header,
+.img_header-back {
+  background-attachment: fixed;
+  top: 14px !important;
+  position: relative;
+  width: 983px;
+  height: 312px;
+  left: 34px !important;
+}
+
+.izbrannoe_vsite {
+  position: absolute;
+  width: 100px;
+  height: 57px;
+  top: 15px;
+  left: 67px;
+  font-family: "Megrim", sans-serif;
+  font-weight: 500;
+  font-size: 37px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: black;
+}
+.order_h2 {
+  width: 335px;
+  height: 35px;
+  top: 17px;
+  left: 370px;
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 35px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
