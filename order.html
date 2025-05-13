@@ -15,66 +15,214 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Megrim&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
-<div class="container">
-  <div class="row">
-    <body class="body">
-      <header class="header">
-         <!--  -->
-        <p class="izbrannoe_vsite">Vsite</p>
-        <h2 class="order_h2">Оформление заказа</h2>
-            
-          
+  <div class="container">
+    <div class="row">
+      <body class="body">
+        <header class="header">
+          <!--  -->
+          <a href="./index.html"><p class="izbrannoe_vsite">Vsite</p></a>
+          <h2 class="order_h2">Оформление заказа</h2>
 
-          
-           <!-- content -->
-        <div class="nav_nenu">
-          <nav class="nav_header_links">
-            <ul>
-              <li class="li">
-                <a class="a1_header" href="./emptycart.html"
-                  ><img class="cart1" src="./icons/Иконка-Корзина.png" alt="Корзина" title="Корзина"
-                /></a>
-              </li>
-              <li class="li">
-                <a class="a2_header" href="./log.html"
-                  ><img class="cart2" src="./icons/Иконка-Профиля.png" alt="Профиль" title="Профиль"
-                /></a>
-              </li>
-              <li class="li">
-                <a class="a3_header" href="./izbrannoe.html"
-                  ><img class="cart3" src="./icons/Иконка-Лайк.png" alt="Избранное" title="Избранное"
-                /></a>
-              </li>
-              <li class="li">
-                <a class="a4_header" href="#"
-                  ><img class="cart4" src="./icons/Иконка-Поиск.png" alt="Поиск по сайту" title="Поиск по сайту"
-                /></a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-      <div class="container">
-        <div class="row">
-            <main>
+          <form action="./order.html" method="post" class="form_log_order">
+            <div class="mb-3 col-12 col-md-4">
+              <label for="name_name">Имя</label>
+              <input type="name" placeholder="Введите имя" autofocus />
+            </div>
+            <div class="w-100"></div>
+            <div class="mb-3 col-12 col-md-4">
+              <label for="secondname">Фамилия</label>
+              <input
+                type="secondname"
+                placeholder="Введите Фамилию"
+                autofocus
+              />
+            </div>
+            <div class="w-100"></div>
+            <div class="mb-3 col-12 col-md-4">
+              <label for="phone">Телефон</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                placeholder="+7 900 999 99 99"
+                required
+              />
+            </div>
+            <div class="w-100"></div>
+            <div class="mb-3 col-12 col-md-4">
+              <label for="city">Населеный пункт</label>
+              <input type="text_moskva" name="city" placeholder="Москва" />
+            </div>
+            <div class="w-100"></div>
+            <p class="order_1_p">Способ доставки</p>
 
-            </main>
-        </div>
-      </div>
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"
-      ></script>
-    </body>
+            <fieldset name="radiobutton1">
+              <div class="radio">
+                <input
+                  class="radio_input"
+                  name="car"
+                  type="radio"
+                  id="order1"
+                checked/>
+                <label class="radio_label" for="order1"
+                  >Курьерская доставка</label
+                >
+              </div>
+              <div class="radio">
+                <input
+                  class="radio_input"
+                  name="car"
+                  type="radio"
+                  id="order2"
+                />
+                <label class="radio_label" for="order2">Самовывоз</label>
+                <p class="radioform1">
+                  Из магазина, сегодня в течении 4 часов, бесплатно Из пункта
+                  выдачи или постамата
+                </p>
+              </div>
+              <div class="radio">
+                <input
+                  class="radio_input"
+                  name="car"
+                  type="radio"
+                  id="order3"
+                />
+                <label class="radio_label" for="order3"
+                  >Почтовая доставка</label
+                >
+              </div>
+            </fieldset>
+
+            <div class="w-100"></div>
+            <div class="mb-3 col-12 col-md-4">
+              <label for="street1">Адрес</label>
+              <input type="text1" name="street" placeholder="Улица" />
+            </div>
+            <div class="mb-3 col-8 col-md-4">
+              <input type="text2" name="house" placeholder="Дом" />
+              <input type="text3" name="aprtment" placeholder="Квартира/офис" />
+              <p class="order_2_p">Способ оплаты</p>
+
+              <!-- radioinputs2 -->
+              <div class="radiobutton2">
+                <div class="radio2">
+                <input
+                  class="radio_input2"
+                  name="car"
+                  type="radio"
+                  id="order4"
+                />
+                <label class="radio_label2" for="order4"
+                  >При получении</label
+                >
+                
+              </div>
+               <div class="radio2">
+                <input
+                  class="radio_input2"
+                  name="car"
+                  type="radio"
+                  id="order5"
+                />
+                <label class="radio_label2" for="order5"
+                  >Онлайн на кассе</label
+                >
+                <p class="radioform2">
+                 -5% скидка на товары в корзине
+                </p>
+              </div>
+              <div class="radio2">
+                <input
+                  class="radio_input2"
+                  name="car"
+                  type="radio"
+                  id="order6"
+                />
+                <label class="radio_label2" for="order6"
+                  >СБП</label
+                >
+                <p class="radioform3">
+                 -5% скидка на товары в корзине
+                </p>
+              </div>
+            </div>
+              <!-- radioinputs2end -->
+            </div>
+          </form>
+
+          <!-- content -->
+          <div class="nav_nenu">
+            <nav class="nav_header_links">
+              <ul>
+                <li class="li">
+                  <a class="a1_header" href="./emptycart.html"
+                    ><img
+                      class="cart1"
+                      src="./icons/Иконка-Корзина.png"
+                      alt="Корзина"
+                      title="Корзина"
+                  /></a>
+                </li>
+                <li class="li">
+                  <a class="a2_header" href="./log.html"
+                    ><img
+                      class="cart2"
+                      src="./icons/Иконка-Профиля.png"
+                      alt="Профиль"
+                      title="Профиль"
+                  /></a>
+                </li>
+                <li class="li">
+                  <a class="a3_header" href="./izbrannoe.html"
+                    ><img
+                      class="cart3"
+                      src="./icons/Иконка-Лайк.png"
+                      alt="Избранное"
+                      title="Избранное"
+                  /></a>
+                </li>
+                <li class="li">
+                  <a class="a4_header" href="#"
+                    ><img
+                      class="cart4"
+                      src="./icons/Иконка-Поиск.png"
+                      alt="Поиск по сайту"
+                      title="Поиск по сайту"
+                  /></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <!-- <div class="container">
+          <div class="row">
+            <main></main>
+          </div>
+        </div> -->
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+          crossorigin="anonymous"
+        ></script>
+      </body>
+    </div>
   </div>
-</div>
-  
 </html>
