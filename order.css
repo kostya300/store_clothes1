@@ -192,3 +192,371 @@ hamburger-menu {
   line-height: 100%;
   letter-spacing: 0%;
 }
+form{
+  width: 900px;
+  height: 1300px;
+}
+.form_log_order input{
+margin-bottom:40px ;
+}
+.form_log_order{
+  width: 510px;
+  position: relative;
+  left: 268px;
+  top: 118px;
+}
+.form_log_order input[type="name"]{
+  position:absolute;
+  left: 66px;
+  top:-17px;
+ width: 381px;
+    height: 48px;
+ background: rgba(231, 231, 231, 0.3);
+border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.form_log_order input[type="secondname"]{
+  position:absolute;
+  left: 66px;
+  top:66px;
+ width: 381px;
+    height: 48px;
+ background: rgba(231, 231, 231, 0.3);
+border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.form_log_order input[type="tel"]{
+  position:absolute;
+  left: 66px;
+  top:148px;
+ width: 381px;
+    height: 48px;
+ background: rgba(231, 231, 231, 0.3);
+border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.form_log_order input[type="text_moskva"]{
+  position:absolute;
+  left: 66px;
+  top:231px;
+ width: 381px;
+    height: 47px;
+ background: rgba(231, 231, 231, 0.3);
+border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.form_log_order input[type="text1"]{
+  position:absolute;
+  left: 66px;
+  top:644px;
+ width: 381px;
+    height: 47px;
+ background: rgba(231, 231, 231, 0.3);
+border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.form_log_order input[type="text2"]{
+  position:absolute;
+  left: 64px;
+  top:709px;
+ width: 187px;
+    height: 47px;
+ background: rgba(231, 231, 231, 0.3);
+border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.form_log_order input[type="text3"]{
+  position:absolute;
+  left: 260px;
+  top:709px;
+ width: 187px;
+    height: 47px;
+ background: rgba(231, 231, 231, 0.3);
+border: 1px solid rgba(0, 0, 0, 0.4);
+}
+label[for="city"]{
+   position: absolute;
+   width: 60px;
+height: 35px;
+top: 242px;
+    left: -55px;
+font-family: "Roboto",sans-serif;
+font-weight: 300;
+font-size: 21px;
+line-height:25px;
+letter-spacing: 0%;
+
+}
+label[for="street1"]{
+   position: absolute;
+   width: 60px;
+height: 35px;
+top: 655px;
+    left: -55px;
+font-family: "Roboto",sans-serif;
+font-weight: 300;
+font-size: 21px;
+line-height:25px;
+letter-spacing: 0%;
+
+}
+label[for="phone"]{
+   position: absolute;
+   width: 60px;
+height: 35px;
+top: 161px;
+    left: -55px;
+font-family: "Roboto",sans-serif;
+font-weight: 300;
+font-size: 21px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+label[for="name_name"]{
+   position: absolute;
+   width: 60px;
+height: 35px;
+top: -3px;
+    left: -55px;
+font-family: "Roboto",sans-serif;
+font-weight: 300;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+label[for="secondname"]{
+   position: absolute;
+   width: 60px;
+height: 35px;
+top: 79px;
+    left: -55px;
+font-family: "Roboto",sans-serif;
+font-weight: 300;
+font-size: 21px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+input::placeholder{
+  position: absolute;
+  left: 23px;
+  top: 10px;
+  font-family: "Roboto",sans-serif;
+font-weight: 300;
+font-size: 21px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.order_1_p{
+  position: absolute;
+  width: 200px;
+height: 35px;
+top: 367px;
+    left: -58px;
+font-family: "Roboto",sans-serif;
+font-weight: 300;
+font-size: 21px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(0, 0, 0, 1);
+
+}
+.order_2_p{
+  position: absolute;
+  width: 200px;
+height: 35px;
+top: 862px;
+    left: -55px;
+font-family: "Roboto",sans-serif;
+font-weight: 300;
+font-size: 20.5px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(0, 0, 0, 1);
+
+}
+.button_radio_form_order{
+  position: absolute;
+  top: 400px;
+   display: grid;
+  min-height: 100vh;
+  margin: 0;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.current_items__row{
+  position: absolute;
+  top: 423px;
+  left: 70px;
+  width: 200px;
+  height: 150px;
+}
+/* radiobuttonstart */
+ .radio {
+  top: 423px;
+  left: 66px;
+    position: relative;
+  margin-bottom: 37px;
+  }
+  .radio_input {
+    -webkit-appearance: none;/* Chrome */
+      -moz-appearance: none;/* Firefox */
+    appearance: none;/* убираем стандартные кружочки */
+    position: absolute;
+}
+ .radio_label {
+    padding-left: 35px;/* отступ слева */
+    font-family: "Roboto",sans-serif;
+font-weight: 300;
+font-size: 21px;
+line-height: 100%;
+letter-spacing: 0%;
+cursor: pointer; /* курсор рука */
+}
+.radio_label:before {
+    content: "";
+    display: block; /* не в строку */
+    width: 21px; /* ширина блока */
+    height: 21px;/* высота блока */
+    border: 1px solid #161515;/* рамка */
+    background-color: #fff; /* цвет фона */
+    border-radius: 50%;/* получаем круг */
+    position: absolute;/* расположен точно в родителе */
+    top: 0; /* расстояние от верха родителя */
+    left: 0;/* расстояние слева от родителя */
+      z-index: 1; /* на нижнем слое */
+    transition: border .1s linear;/* плавный переход для border */
+}
+.radio_input:checked + .radio_label:after {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-color: #000000;
+    border-radius: 50%;
+    opacity: 1; /* полностью прозрачный */
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    z-index: 2;/* на верхнем слое */
+   /* плавный переход для opacity */
+}
+.radio_input:checked + .radio_label:before {
+ content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    
+    border: 1px solid  #000000;
+
+}
+.radio:last-child{
+margin-top: 2px;
+}
+.radioform1{
+position: absolute;
+    width: 229px;
+    height: 20px;
+    top: 24px;
+    left: 37px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 116%;
+    letter-spacing: 0%;
+
+}
+/* radiobutonend */
+/* radiobuttonstart2 */
+.radio2 {
+ top: 700px;
+    left: 65px;
+    position: relative;
+    margin-bottom: 22px;
+  }
+  .radio_input2 {
+    -webkit-appearance: none;/* Chrome */
+      -moz-appearance: none;/* Firefox */
+    appearance: none;/* убираем стандартные кружочки */
+    position: absolute;
+}
+ .radio_label2 {
+  position: relative;
+  width: 200px;
+height: 35px;
+top: 22px;
+left: 1px;
+
+    padding-left: 35px;/* отступ слева */
+    font-family: "Roboto",sans-serif;
+font-weight: 300;
+font-size: 21px;
+line-height: 100%;
+letter-spacing: 0%;
+cursor: pointer; /* курсор рука */
+}
+.radio_label2:before {
+    content: "";
+    display: block; /* не в строку */
+    width: 21px; /* ширина блока */
+    height: 21px;/* высота блока */
+    border: 1px solid #161515;/* рамка */
+    background-color: #fff; /* цвет фона */
+    border-radius: 50%;/* получаем круг */
+    position: absolute;/* расположен точно в родителе */
+    top: 0; /* расстояние от верха родителя */
+    left: 0;/* расстояние слева от родителя */
+      z-index: 1; /* на нижнем слое */
+    transition: border .1s linear;/* плавный переход для border */
+}
+.radio_input2:checked + .radio_label2:after {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-color: #000000;
+    border-radius: 50%;
+    opacity: 1; /* полностью прозрачный */
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    z-index: 2;/* на верхнем слое */
+   /* плавный переход для opacity */
+   opacity: .8;
+}
+.radio_input2:checked + .radio_label2:before {
+ content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    
+    border: 1px solid  #000000;
+
+}
+.radio:last-child{
+margin-top: 2px;
+}
+.radioform2{
+position: absolute;
+    width: 229px;
+    height: 20px;
+    top: 48px;
+    left: 37px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 116%;
+    letter-spacing: 0%;
+
+}
+.radioform3{
+position: absolute;
+    width: 229px;
+    height: 20px;
+    top: 50px;
+    left: 37px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 116%;
+    letter-spacing: 0%;
+
+}
+/* radiobutonend2 */
