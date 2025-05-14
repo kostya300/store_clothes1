@@ -163,7 +163,7 @@ hamburger-menu {
   top: 14px !important;
   position: relative;
   width: 983px;
-  height: 312px;
+  height: 1612px;
   left: 34px !important;
 }
 
@@ -560,3 +560,111 @@ position: absolute;
 
 }
 /* radiobutonend2 */
+.price_order_end{
+position: absolute;
+    width: 540px;
+    height: 220px;
+    top: 1131px;
+    left: -17px;
+background: rgba(217, 217, 217, 0.45);
+
+}
+.p1_price_end{
+    position: absolute;
+    left: 36px;
+    top: 30px;
+    width: 130px;
+    height: 21px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+.p2_price_end{
+    position: absolute;
+    left: 370px;
+    top: 30px;
+    width: 130px;
+    height: 21px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+.p3_price_end{
+    position: absolute;
+    left: 37px;
+    top: 130px;
+    width: 56px;
+    height: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+.p4_price_end{
+    position: absolute;
+    left: 372px;
+    top: 124px;
+    width: 79px;
+    height: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+.price_order_end input{
+position: absolute;
+    width: 220px;
+    height: 34px;
+    top: 71px;
+    left: 37px;
+    border-width: 1px;
+    background: rgba(231, 231, 231, 1);
+border: 1px solid rgba(166, 166, 166, 1)
+}
+.price_order_end input::placeholder{
+  position: absolute;
+  left: 11px;
+  top: 4px;
+}
+.price_order_end button{
+   position: absolute;
+    left: 281px;
+    top: 71px;
+    width: 90px;
+    height: 33px;
+    border-width: 1px;
+    background: rgba(0, 0, 0, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
+.price_order_end button:last-child{
+  padding-left: 21px;
+       position: absolute;
+    left: 138px;
+    top: 163px;
+    width: 271px;
+    height: 41px;
+    border-width: 1px;
+    background: rgba(48, 170, 82, 1);
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
